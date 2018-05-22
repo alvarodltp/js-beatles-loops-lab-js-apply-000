@@ -1,9 +1,9 @@
 function theBeatlesPlay(musicians, instruments) {
-  var newArr = [];
+  var newArray = [];
   for(var i = 0; i < musicians.length; i++){
-    theyPlay.push(musicians[i] + " plays " +instruments[i]);
+    newArray.push(musicians[i] + " plays the " + instruments[i]);
   }
-  return theyPlay;
+  return newArray;
 }
 
 function johnLennonFacts(facts){
